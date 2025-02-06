@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white"
+    android:layout_marginBottom="8dp"
+    android:elevation="2dp">
+
+ <RelativeLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+     <ImageView
+         android:id="@+id/user_img"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/user_img"/>
+
+     <TextView
+         android:id="@+id/usernameTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Username"
+         android:layout_toEndOf="@+id/user_img"
+         android:textStyle="bold"
+         android:layout_marginLeft="15dp"
+         android:textSize="16sp"
+         android:textColor="@android:color/black"/>
+ </RelativeLayout>
+
+    <TextView
+        android:id="@+id/feedbackTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feedback message here"
+        android:textSize="14sp"
+        android:textColor="#363636"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/timestampTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12/01/2025 14:30"
+        android:textSize="12sp"
+        android:textColor="@android:color/holo_blue_dark"/>
+</LinearLayout>

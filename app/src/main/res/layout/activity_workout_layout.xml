@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/white"
+    tools:context=".WorkoutLayout">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="192dp"
+        android:src="@drawable/treadmill" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleId"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/objectiveId"
+        android:text="Objective"
+        android:textColor="#363636"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionId"
+        android:text="Description"
+        android:textColor="#363636"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="20dp"
+        />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:max="100"
+        android:progress="100"
+        android:indeterminate="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:progressDrawable="@drawable/circular_progress" />
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="30s"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="#363636"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOn="Stop"
+        android:textOff="Start"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="17dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="22dp"
+        android:id="@+id/toggleBtn"
+        />
+
+</LinearLayout>

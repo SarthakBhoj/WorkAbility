@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "46922800897",
+    "project_id": "workability-297e4",
+    "storage_bucket": "workability-297e4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46922800897:android:81f6c9cc3d9cf82fc74500",
+        "android_client_info": {
+          "package_name": "com.example.workability"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6ORS5nHmcl1LndV6RPtsEP2BG5NP5yxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
